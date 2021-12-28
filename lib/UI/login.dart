@@ -295,7 +295,7 @@ class _LoginPageState extends State<LoginPage> {
                                 return Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => HomePage()));
+                                        builder: (context) => MyApp()));
                               });
                               clearText();
                             },
